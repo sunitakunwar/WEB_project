@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+ <form action="/action_page.php">
+	 <fieldset>
+    <legend >Personal information:</legend>
+  <label> First name: </label>
+  <input type="text" name="firstname"  placeholder="enter your firstname">
+  <br>
+ <lable> Last name:</lable>
+  <input type="text" name="lastname" placeholder="enter your lastname" >
+  <br>
+  <label>Password:</label>
+  <input type="text" name="password" placeholder="password" >
+  <br>
+  Enter a date of birth<br>
+<input type="date" name="bday" max="1979-12-31"><br>
+E-mail:<br>
+  <input type="email" name="email"><br>
+<form>
+	<h2> Gender </h2>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other  
+  <h3> Address </h3>
+  <select name="Address">
+  	
+    <option value="volvo">Kathmandu</option>
+    <option value="saab">lamjung</option>
+    <option value="other">Fiat</option>
+    
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</fieldset>
+</form> 
+
+
+
+</body>
+</html>
